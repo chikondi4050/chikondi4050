@@ -1,0 +1,139 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Lakes Forum</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-900 text-white py-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-4xl font-extrabold">Great Lakes Forum</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="text-lg hover:text-blue-300">About Us</a></li>
+                    <li><a href="#vision" class="text-lg hover:text-blue-300">Vision</a></li>
+                    <li><a href="#mission" class="text-lg hover:text-blue-300">Mission</a></li>
+                    <li><a href="#values" class="text-lg hover:text-blue-300">Values</a></li>
+                    <li><a href="#goals" class="text-lg hover:text-blue-300">Goals</a></li>
+                    <li><a href="#post" class="text-lg hover:text-blue-300">Post</a></li>
+                    <li><a href="#contact" class="text-lg hover:text-blue-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header><main class="container mx-auto py-12">
+    <!-- Hero Section -->
+    <section class="bg-blue-100 rounded-lg p-8 shadow-md text-center mb-12">
+        <h2 class="text-4xl font-bold text-blue-800 mb-4">Welcome to the Great Lakes Forum</h2>
+        <p class="text-lg text-gray-700 leading-relaxed">
+            Connecting the Great Lakes Diaspora to empower communities and drive sustainable development through innovation, education, and leadership.
+        </p>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="mb-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-6">About Us</h2>
+        <p class="text-lg leading-relaxed text-gray-700">
+            The Great Lakes Forum is a dynamic platform founded by visionary men and women from the Great Lakes Diaspora. Our primary focus is on entrepreneurship, social transformation, education, skills development, technology, and leadership. We concentrate on empowering the Great Lakes Diaspora and the Great Lakes Region.
+        </p>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="mb-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-6">Vision</h2>
+        <p class="text-lg leading-relaxed text-gray-700">
+            Our vision is to build a thriving Great Lakes Region where innovation, education, and leadership drive sustainable development.
+        </p>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="mb-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-6">Mission</h2>
+        <p class="text-lg leading-relaxed text-gray-700">
+            Our mission is to advocate for entrepreneurship, social transformation, education, skills development, technology advancement, and leadership. We aim to build an empowered Great Lakes Diaspora, hosting communities, and the Great Lakes Region: fostering a cohesive, stable, and prosperous region.
+        </p>
+    </section>
+
+    <!-- Values Section -->
+    <section id="values" class="mb-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-6">Values</h2>
+        <p class="text-lg leading-relaxed text-gray-700">
+            The Great Lakes Forum is guided by the principles of Ubuntu, cooperation, productivity, and responsibility. We believe in the power of collective action and the potential of every individual to make a meaningful impact. Our philosophy emphasizes inclusive dialogue, responsible leadership, and practical support to address the challenges facing our diaspora and the Great Lakes Region.
+        </p>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="goals" class="mb-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-6">Goals</h2>
+        <ul class="list-disc pl-6 text-lg leading-relaxed text-gray-700">
+            <li>Promote Entrepreneurship: Initiate, encourage, and support entrepreneurial initiatives that drive economic growth and create job opportunities within the diaspora, hosting communities, and the region.</li>
+            <li>Drive Social Transformation: Initiate and support programs that promote social change, community empowerment, and development among the diaspora and the region.</li>
+            <li>Enhance Education and Skills: Advocate for and support educational initiatives that enhance knowledge and skills development among the diaspora and the region.</li>
+            <li>Advance Technology: Promote and facilitate the adoption of technology to drive innovation and development within the diaspora and the region.</li>
+            <li>Cultivate Leadership: Train and develop responsible leaders who can guide their communities towards sustainable development and unity.</li>
+        </ul>
+    </section>
+
+    <!-- Post Section -->
+    <section id="post" class="mb-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-6">Share Your Content</h2>
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="title">Title</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="title" type="text" placeholder="Post Title">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="content">Content</label>
+                <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="content" placeholder="Write your content here..."></textarea>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="video">Upload Video</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="video" type="file" accept="video/*">
+            </div>
+            <div class="flex items-center justify-between">
+                <button class="bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">Post</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mb-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-6">Contact Us</h2>
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Name">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your Email">
+            </div>
+            <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
+                <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Your Message"></textarea>
+            </div>
+            <div class="flex items-center justify-between">
+                <button class="bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="mb-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-6">Features</h2>
+        <ul class="list-disc pl-6 text-lg leading-relaxed text-gray-700">
+            <li>Event Calendar: Stay updated on upcoming events and activities.</li>
+            <li>Resource Center: Access tools and materials to enhance your knowledge and skills.</li>
+            <li>Community Forum: Engage in meaningful discussions with other members of the diaspora.</li>
+        </ul>
+    </section>
+</main>
+
+<footer class="bg-blue-900 text-white py-6">
+    <div class="container mx-auto text-center">
+        <p class="text-lg">&copy; 2025 Great Lakes Forum. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
